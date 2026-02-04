@@ -272,3 +272,268 @@ https://adguardteam.github.io/HostlistsRegistry/assets/filter_54.txt
 ```
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt
 ```
+
+###懒人配置
+```
+filters:
+  - enabled: true
+    url: https://github.com/xinggsf/Adblock-Plus-Rule/raw/refs/heads/master/rule.txt
+    name: 乘风广告过滤规则
+    id: 100001
+  - enabled: true
+    url: https://github.com/xinggsf/Adblock-Plus-Rule/raw/refs/heads/master/mv.txt
+    name: 乘风视频广告过滤
+    id: 100002
+  - enabled: true
+    url: https://github.com/xinggsf/Adblock-Plus-Rule/raw/refs/heads/master/minority-mv.txt
+    name: 乘风小众视频广告过滤
+    id: 100003
+  - enabled: true
+    url: https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+    name: 大圣净化内置列表（国内视频适配）
+    id: 100004
+  - enabled: true
+    url: https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
+    name: ADgk 广告过滤
+    id: 100005
+  - enabled: true
+    url: https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt
+    name: 百度搜索屏蔽百家号
+    id: 100006
+  - enabled: true
+    url: https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu-strict.txt
+    name: 知乎严格过滤规则
+    id: 100007
+  - enabled: true
+    url: https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-easylist.txt
+    name: anti-AD 综合过滤
+    id: 100008
+  - enabled: true
+    url: https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/all.txt
+    name: AdGuardHome 国际规则(all)
+    id: 100009
+  - enabled: true
+    url: https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/skyrules.txt
+    name: AdGuardHome 国际规则(sky)
+    id: 100010
+  - enabled: true
+    url: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
+    name: 插件端广告拦截
+    id: 100011
+  - enabled: true
+    url: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
+    name: DNS 级广告拦截
+    id: 100012
+  - enabled: true
+    url: https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
+    name: 接口级广告过滤
+    id: 100013
+  - enabled: true
+    url: https://github.com/AdguardTeam/AdGuardSDNSFilter/raw/gh-pages/Filters/rules.txt
+    name: AdGuard 简化域名过滤规则
+    id: 100014
+  - enabled: true
+    url: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+    name: AdGuard DNS 核心过滤
+    id: 100015
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+    name: AdGuard 基础过滤规则
+    id: 100016
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt
+    name: AdGuard 中文专用过滤
+    id: 100017
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt
+    name: AdGuard 移动广告过滤
+    id: 100018
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_59.txt
+    name: AdGuard DNS 弹窗拦截
+    id: 100019
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_53.txt
+    name: AWAvenue Ads Rule 国内广告联盟过滤
+    id: 100020
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt
+    name: CHN: AdRules DNS List 中文DNS广告规则
+    id: 100021
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt
+    name: CHN: anti-AD 官方同步版
+    id: 100022
+  - enabled: true
+    url: https://easylist.to/easylist/easylist.txt
+    name: EasyList 核心广告过滤
+    id: 100023
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/easylistchina.txt
+    name: EasyList 中国区规则
+    id: 100024
+  - enabled: true
+    url: https://easylist.to/easylist/easyprivacy.txt
+    name: EasyPrivacy 隐私保护规则
+    id: 100025
+  - enabled: true
+    url: https://easylist.to/easylist/fanboy-annoyance.txt
+    name: Fanboy 烦扰内容过滤
+    id: 100026
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
+    name: 反广告拦截提示规则
+    id: 100027
+  - enabled: true
+    url: https://www.i-dont-care-about-cookies.eu/abp/
+    name: I don't care about cookies 自动忽略Cookie提示
+    id: 100028
+  - enabled: true
+    url: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext
+    name: Peter Lowe 广告服务器列表
+    id: 100029
+  - enabled: true
+    url: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+    name: StevenBlack 综合 Hosts
+    id: 100030
+  - enabled: true
+    url: https://someonewhocares.org/hosts/zero/hosts
+    name: Dan Pollock 经典 Hosts
+    id: 100031
+  - enabled: true
+    url: https://hblock.molinero.dev/hosts_adblock.txt
+    name: Hblock 多源合并过滤
+    id: 100032
+  - enabled: true
+    url: https://abp.oisd.nl/basic/
+    name: OISD 基础版过滤
+    id: 100033
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt
+    name: OISD Blocklist Big 完整版过滤
+    id: 100034
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_70.txt
+    name: 1Hosts (Xtra) 超强过滤
+    id: 100035
+  - enabled: true
+    url: https://cdn.jsdelivr.net/gh/neoFelhz/neohosts@gh-pages/full/hosts
+    name: neoHosts 全量过滤规则
+    id: 100036
+  - enabled: true
+    url: https://github.com/nextdns/metadata/tree/master/privacy/native
+    name: NextDNS 系统级跟踪拦截
+    id: 100037
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_67.txt
+    name: HaGeZi's Apple Tracker Blocklist 苹果设备跟踪拦截
+    id: 100038
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_61.txt
+    name: HaGeZi's Samsung Tracker Blocklist 三星设备跟踪拦截
+    id: 100039
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_60.txt
+    name: HaGeZi's Xiaomi Tracker Blocklist 小米设备跟踪拦截
+    id: 100040
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_66.txt
+    name: HaGeZi's OPPO & Realme Tracker Blocklist OPPO/Realme跟踪拦截
+    id: 100041
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_65.txt
+    name: HaGeZi's Vivo Tracker Blocklist Vivo设备跟踪拦截
+    id: 100042
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_63.txt
+    name: HaGeZi's Windows/Office Tracker Blocklist Windows/Office跟踪拦截
+    id: 100043
+  - enabled: true
+    url: https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt
+    name: 智能电视广告/跟踪拦截
+    id: 100044
+  - enabled: true
+    url: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt
+    name: 游戏主机广告过滤规则
+    id: 100045
+  - enabled: true
+    url: https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
+    name: NoCoin Filter List 加密货币挖矿拦截
+    id: 100046
+  - enabled: true
+    url: https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt
+    name: Scam Blocklist 网络诈骗链接拦截
+    id: 100047
+  - enabled: true
+    url: https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+    name: Spam404 垃圾站点拦截
+    id: 100048
+  - enabled: true
+    url: https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hacked-domains.list
+    name: 恶意软件站点拦截列表
+    id: 100049
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt
+    name: Phishing URL Blocklist 钓鱼网站拦截
+    id: 100050
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_12.txt
+    name: Dandelion Sprout's Anti-Malware List 蒲公英反恶意软件规则
+    id: 100051
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_55.txt
+    name: HaGeZi's Badware Hoster Blocklist 恶意站点拦截
+    id: 100052
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt
+    name: HaGeZi's Threat Intelligence Feeds 威胁情报过滤
+    id: 100053
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_18.txt
+    name: Phishing Army 钓鱼拦截
+    id: 100054
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.txt
+    name: ShadowWhisperer's Malware List 恶意软件列表
+    id: 100055
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt
+    name: Malicious URL Blocklist 恶意URL拦截
+    id: 100056
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_50.txt
+    name: uBlock₀ filters – Badware risks 恶意软件风险拦截
+    id: 100057
+  - enabled: true
+    url: https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
+    name: CJX’s Annoyance List 烦扰内容过滤
+    id: 100058
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_39.txt
+    name: 反网页推送通知规则
+    id: 100059
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_46.txt
+    name: HaGeZi's Anti-Piracy Blocklist 反盗版站点拦截
+    id: 100060
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_47.txt
+    name: HaGeZi's Gambling Blocklist 赌博站点拦截
+    id: 100061
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_68.txt
+    name: HaGeZi's URL Shortener Blocklist 短链接解析拦截
+    id: 100062
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_71.txt
+    name: HaGeZi's DNS Rebind Protection DNS重绑定防护
+    id: 100063
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_54.txt
+    name: HaGeZi's DynDNS Blocklist 动态DNS站点拦截
+    id: 100064
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt
+    name: Stalkerware Indicators List 监控软件指标拦截列表
+    id: 100065
+```
